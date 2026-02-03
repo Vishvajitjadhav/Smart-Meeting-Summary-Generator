@@ -1,0 +1,7 @@
+The team discussed the upcoming Q2 release plan.
+We reviewed the current backlog and identified high-priority items.
+It was decided that the mobile app release will be moved to the next sprint.
+
+Action items:
+Amit will prepare the updated release timeline by Friday.
+Neha will review the API performance issues.

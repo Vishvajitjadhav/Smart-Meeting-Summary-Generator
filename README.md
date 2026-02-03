@@ -49,9 +49,9 @@ Smart-Meeting-Summary/
 - Mirrors real-world backend service architecture
 
 ---
-```text
-## 🏗️ Architecture Overview
 
+## 🏗️ Architecture Overview
+```text
 UI (Streamlit)
 ↓
 Prompt Builder

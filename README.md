@@ -25,20 +25,19 @@ This project was built as part of an **AI technical assessment** to demonstrate 
 ## 📁 Project Structure
 
 Smart-Meeting-Summary/
+├── app.py                     # Streamlit UI entry point
 │
-├── app.py 
+├── services/                  # Business logic & integrations
+│   ├── summarizer.py          # LLM interaction + normalization
+│   └── prompt_builder.py      # Prompt construction
 │
-├── services/ 
-│ ├── summarizer.py 
-│ └── prompt_builder.py 
+├── models/                    # Data contracts & validation
+│   └── summary_schema.py      # Pydantic schema
 │
-├── models/ 
-│ └── summary_schema.py 
+├── requirements.txt           # Project dependencies
+├── README.md                  # Documentation
 │
-├── requirements.txt 
-├── README.md 
-│
-└── venv/ 
+└── venv/                      # Local virtual environment
 
 
 ### Why this structure?

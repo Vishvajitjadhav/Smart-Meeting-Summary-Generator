@@ -126,7 +126,7 @@ setx GROQ_API_KEY "your_groq_api_key"
 
 (Run the App)
 python -m streamlit run app.py
-
+```
 ---
 
 🔄 LLM Flexibility

@@ -24,6 +24,7 @@ This project was built as part of an **AI technical assessment** to demonstrate 
 
 ## 📁 Project Structure
 
+```text
 Smart-Meeting-Summary/
 ├── app.py                     # Streamlit UI entry point
 │
@@ -38,6 +39,7 @@ Smart-Meeting-Summary/
 ├── README.md                  # Documentation
 │
 └── venv/                      # Local virtual environment
+
 
 
 ### Why this structure?

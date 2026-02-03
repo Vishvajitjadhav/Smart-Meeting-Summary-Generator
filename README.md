@@ -40,7 +40,7 @@ Smart-Meeting-Summary/
 │
 └── venv/                      # Local virtual environment
 
-
+```
 
 ### Why this structure?
 - Clear separation of concerns (UI, AI logic, data contracts)

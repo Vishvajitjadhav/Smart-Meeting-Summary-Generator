@@ -49,7 +49,7 @@ Smart-Meeting-Summary/
 - Mirrors real-world backend service architecture
 
 ---
-
+```text
 ## 🏗️ Architecture Overview
 
 UI (Streamlit)
@@ -63,7 +63,7 @@ Output Normalization
 Schema Validation (Pydantic)
 ↓
 Structured Summary
-
+```
 
 ### Key Design Decisions
 - **Schema-first approach**: Output is validated using Pydantic models

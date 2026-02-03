@@ -26,19 +26,19 @@ This project was built as part of an **AI technical assessment** to demonstrate 
 
 Smart-Meeting-Summary/
 │
-├── app.py # Streamlit UI entry point
+├── app.py 
 │
-├── services/ # Business logic & integrations
-│ ├── summarizer.py # LLM interaction + normalization logic
-│ └── prompt_builder.py # Centralized prompt construction
+├── services/ 
+│ ├── summarizer.py 
+│ └── prompt_builder.py 
 │
-├── models/ # Data contracts & validation
-│ └── summary_schema.py # Pydantic schema for structured output
+├── models/ 
+│ └── summary_schema.py 
 │
-├── requirements.txt # Project dependencies
-├── README.md # Project documentation
+├── requirements.txt 
+├── README.md 
 │
-└── venv/ # Local Python virtual environment
+└── venv/ 
 
 
 ### Why this structure?
@@ -118,12 +118,12 @@ python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 
-Set Environment Variable
+(Set Environment Variable)
 setx GROQ_API_KEY "your_groq_api_key"
 
-Restart the terminal after setting the key.
+(Restart the terminal after setting the key.)
 
-Run the App
+(Run the App)
 python -m streamlit run app.py
 
 ---
